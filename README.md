@@ -44,7 +44,7 @@ pip install scapy PyPDF2 python-docx xlrd openpyxl python-pptx
 
   #### Ejemplo:
   ```
-  python3 sender.py searchAndSend --rootPath /home/user/docs --keywords seguridad,confidencial --destinationIp 192.168.1.100 --tcpFlag random
+  python3 sender.py searchAndSend --rootPath ./NAS --keywords confidencial --destinationIp 192.168.1.100 --tcpFlag random
   ```
 
   ### Modo waitForOrder
