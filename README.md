@@ -108,6 +108,7 @@ pip install scapy PyPDF2 python-docx xlrd openpyxl python-pptx odfpy
   - XSL
   - XLSX
   - ODT
+  - PPTX
 
   Estos formatos son procesados para extraer su contenido y buscar las palabras clave.
 
