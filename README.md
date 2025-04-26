@@ -2,6 +2,16 @@
 
 Este proyecto contiene dos scripts en Python (sender.py y receiver.py) para la transferencia de archivos a través de la red utilizando paquetes TCP. El objetivo principal de estos scripts es permitir la búsqueda de archivos que contengan ciertas palabras clave y enviarlos a través de la red a una máquina destino. El proceso de envío y recepción se maneja mediante paquetes TCP personalizados utilizando la librería Scapy.
 
+## Mitre v17
+
+- 🌐 Protocol Tunneling (T1572)
+- 🔒 Exfiltration Over C2 Channel (T1041)
+- 📡 Non-Application Layer Protocol (T1095)
+- 🤖 Automated Collection (T1119)
+- 🔍 File and Directory Discovery (T1083)
+- 🕵 Obfuscated Files or Information (T1027)
+- 🐍 Command and Scripting Interpreter: Python (T1059.006)
+
 ## Características
 1-. **sender.py**: Permite buscar archivos en un directorio local que contengan ciertas palabras clave y enviarlos a una máquina destino a través de la red.
 
