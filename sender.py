@@ -10,6 +10,8 @@ import docx
 import xlrd
 import openpyxl
 from pptx import Presentation
+from odf.opendocument import load
+from odf.text import P
 
 import math
 
@@ -72,8 +74,9 @@ class SearchAndSend():
                                     contentFile += shape.text
                     # ODT (OpenDocument Text)
                     elif filePath.endswith('.odt'):
-                        for paragraph in OpenDocumentText(filePath).getElementsByType("text:p"):
-                            contentFile += paragraph.firstChild.data
+                        for paragraph in load(filePath).getElementsByType(P):
+                            paragraph_text = ''.join([node.data for node in paragraph.childNodes if node.nodeType == node.TEXT_NODE])
+                            contentFile += paragraph_text
                     #Sin fichero
                     else:
                         pass
