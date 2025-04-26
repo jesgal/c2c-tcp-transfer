@@ -16,10 +16,11 @@ Este proyecto contiene dos scripts en Python (sender.py y receiver.py) para la t
   - xlrd
   - openpyxl
   - python-pptx
+  - odfpy
     
 Puedes instalar las librerías necesarias ejecutando:
 ```
-pip install scapy PyPDF2 python-docx xlrd openpyxl python-pptx
+pip install scapy PyPDF2 python-docx xlrd openpyxl python-pptx odfpy
 ```
 
 ## Uso sender.py
