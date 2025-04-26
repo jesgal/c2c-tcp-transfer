@@ -105,5 +105,8 @@ pip install scapy PyPDF2 python-docx xlrd openpyxl python-pptx odfpy
   - **ARP Spoofing**: Para evitar la resolución ARP (Address Resolution Protocol), la variable conf.arp_resolve está configurada a False en el script sender.py, lo que evita que se realicen consultas ARP durante el envío de paquetes.
   - **Dirección MAC estática**: La dirección MAC de destino está hardcodeada en el script como 00:11:22:33:44:55, lo cual podría ser necesario ajustarlo si se utiliza una red diferente.
 
+## Responsabilidad
+Esta herramienta está diseñada para realizar pruebas de penetración y auditorías de seguridad en sistemas de manera ética y legal. Su propósito principal es ayudar a los profesionales de la ciberseguridad a identificar vulnerabilidades y debilidades en sus propios sistemas o en los de organizaciones que hayan dado su consentimiento explícito. Solo úsala en redes o sistemas para los cuales tengas permiso explícito. El uso en sistemas en los que no tengas autorización es ilegal y puede tener consecuencias graves.
+
 ## Contribuciones
 Si deseas contribuir a este proyecto, por favor, realiza un fork del repositorio, realiza tus cambios y abre un pull request con una descripción detallada de las modificaciones.
